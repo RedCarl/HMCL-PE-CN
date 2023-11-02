@@ -4,7 +4,7 @@
     <string name="app_name_pri" translatable="false">Hello Minecraft! Launcher</string>
     <string name="app_name_sec" translatable="false">Pocket Edition</string>
     <string name="version_name" translatable="false">v1.0.0</string>
-    <string name="app_bar_title" translatable="false">祈风 · Pixelmon v1.0.0</string>
+    <string name="app_bar_title" translatable="false">灵域 · Pixelmon v1.0.0</string>
 
     <string name="launcher_spinner_text" translatable="false">▲</string>
     <string name="dialog_add_offline_account_uuid" translatable="false">UUID</string>
