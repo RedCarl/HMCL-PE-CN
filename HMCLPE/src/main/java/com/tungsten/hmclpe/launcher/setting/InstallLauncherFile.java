@@ -70,7 +70,7 @@ public class InstallLauncherFile {
             AssetsUtils.getInstance(activity).setProgressCallback(progressCallback).copyOnMainThread("plugin/login/nide8auth",AppManifest.PLUGIN_DIR + "/login/nide8auth");
         }
         /*
-         *检查布局方案，如果没有，就生产一个默认布局
+         *检查布局方案，如果没有，就生产一个默认布局。
          */
         activity.runOnUiThread(() -> {
             activity.loadingText.setText(activity.getString(R.string.loading_hint_control));
@@ -100,7 +100,7 @@ public class InstallLauncherFile {
          *检查Java运行时，Java可能内置在启动器也可能需要下载，因此单独处理
          */
         checkJava8(activity, progressCallback);
-        checkJava17(activity, progressCallback);
+//        checkJava17(activity, progressCallback);
         if (!new File(AppManifest.DEFAULT_RUNTIME_DIR + "/resolv.conf").exists()){
             try(BufferedWriter bfw=new BufferedWriter(new FileWriter(AppManifest.DEFAULT_RUNTIME_DIR + "/resolv.conf"))) {
                 bfw.write("nameserver 8.8.8.8");

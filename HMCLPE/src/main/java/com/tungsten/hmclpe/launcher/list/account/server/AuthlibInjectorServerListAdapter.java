@@ -130,6 +130,7 @@ public class AuthlibInjectorServerListAdapter extends BaseAdapter {
                 }
             }
         });
+        viewHolder.delete.setVisibility(View.GONE);
         return convertView;
     }
 }

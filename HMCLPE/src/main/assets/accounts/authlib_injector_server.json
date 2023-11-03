@@ -1,0 +1,7 @@
+[
+  {
+    "metadataResponse": "{\"meta\":{\"serverName\":\"Miars Skin\",\"implementationName\":\"Yggdrasil API for Blessing Skin\",\"implementationVersion\":\"5.1.5\",\"links\":{\"homepage\":\"https:\\/\\/skin.miars.cn\",\"register\":\"https:\\/\\/skin.miars.cn\\/auth\\/register\"},\"feature.non_email_login\":true},\"skinDomains\":[\"skin.miars.cn\"],\"signaturePublickey\":\"-----BEGIN PUBLIC KEY-----\\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAw9kJfPeQWrEIgs826T7o\\naYcIGzJ5i1\\/xDryyq2\\/qXqGmxri1OiagMNEdtYIz7evkirrMA+o\\/OTOUxXUXrhiF\\nSqWj2IfN5BHzqdIMur4R8ozsjEjqH7ZwuLYPMt8UZ9wXRs4TkmxVnDdQNRihY\\/uU\\naAhJi\\/ryUny6LV68ya\\/vrea2oZV+EKD2sWmWniavFaoYgIWu+KDfLuJ5aGFpdOD9\\nY94ubfQdHll0vUUIQkP0+CxYkrVtEDXL1b83MZnfmScAGrcHKktCPSedcP+3LTU9\\n\\/HZCUsP5c\\/+hEQHj2\\/eUbMVfHA31+VeS4dVeEGpmlZQxHehxodk5HBfakrRcufJb\\nj3CEGQFLN4nJgk7zYb+OKQ1DR\\/XKnH6fX0tup3RzetBm0+urIs2XVNwkSCjPLrMN\\nReLGKbJKH+8+qvnPpNh2kAIfu96I8EFQShe87nybGtGn0m25lWElGo2+Wfb8ldBZ\\noK0rHp+04a8yXR12sd\\/wz09xTFN9+6\\/8ynMgFqEJaVWCSKqNGxu12+xY1jL9uf3V\\nS80GLxtYbtR60XrhZ67IulkZYxjq92Te8O2K8t\\/tQvrpNK\\/INl3WoQX\\/Km1WVt41\\nHLo8NVXf+jNVbjwUWSr8RCYSUUo3DsgEg9cAI2snZZfQVGE4InEYnCBXTnzn0bRh\\nH8PKoYx\\/hU68lcKcuY\\/iRbsCAwEAAQ==\\n-----END PUBLIC KEY-----\\n\"}",
+    "metadataTimestamp": 1698940874283,
+    "url": "https://skin.miars.cn/api/yggdrasil/"
+  }
+]

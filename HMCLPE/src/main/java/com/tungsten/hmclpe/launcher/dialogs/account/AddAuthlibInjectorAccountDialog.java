@@ -100,6 +100,8 @@ public class AddAuthlibInjectorAccountDialog extends Dialog implements View.OnCl
         editServer.setAdapter(serverListAdapter);
         editServer.setOnItemSelectedListener(this);
         editServer.setSelection(serverListAdapter.getItemPosition(authlibInjectorServer));
+
+        addServer.setVisibility(View.GONE);
     }
 
     @Override

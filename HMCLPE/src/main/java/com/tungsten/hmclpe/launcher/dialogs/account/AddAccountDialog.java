@@ -157,6 +157,8 @@ public class AddAccountDialog extends Dialog implements View.OnClickListener, Ta
         else {
             editServer.setSelection(0);
         }
+
+        addServer.setVisibility(View.GONE);
     }
 
     @Override

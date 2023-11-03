@@ -56,9 +56,9 @@ public class InitializeSetting {
         ArrayList<AuthlibInjectorServer> serverListBeans = new ArrayList<>();
         if (new File(AppManifest.ACCOUNT_DIR + "/authlib_injector_server.json").exists() && GsonUtils.getContentListFromFile(AppManifest.ACCOUNT_DIR + "/authlib_injector_server.json").size() != 0){
             serverListBeans = GsonUtils.getServerListFromFile(AppManifest.ACCOUNT_DIR + "/authlib_injector_server.json");
-        }
-        else {
-            GsonUtils.saveServer(serverListBeans,AppManifest.ACCOUNT_DIR + "/authlib_injector_server.json");
+        } else {
+//            GsonUtils.saveServer(serverListBeans,AppManifest.ACCOUNT_DIR + "/authlib_injector_server.json");
+            AssetsUtils.getInstance(context).copyAssetsToSD("accounts", AppManifest.ACCOUNT_DIR);
         }
         return serverListBeans;
     }
